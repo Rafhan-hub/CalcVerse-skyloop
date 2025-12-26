@@ -11,7 +11,6 @@
       --purple: #b45cff;
       --grad: linear-gradient(135deg, var(--blue), var(--purple));
     }
-
     body {
       font-family: 'Segoe UI', Roboto, Arial, sans-serif;
       background: #f5f5ff;
@@ -20,7 +19,6 @@
       color: #222;
       line-height: 1.7;
     }
-
     .container {
       max-width: 960px;
       margin: 40px auto;
@@ -29,7 +27,6 @@
       border-radius: 12px;
       box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     }
-
     .header {
       display: flex;
       align-items: center;
@@ -37,7 +34,6 @@
       margin-bottom: 20px;
       flex-wrap: wrap;
     }
-
     .logo-container {
       width: 100px;
       height: 100px;
@@ -49,13 +45,7 @@
       justify-content: center;
       padding: 10px;
     }
-
-    .logo {
-      width: 80px;
-      height: auto;
-      border-radius: 12px;
-    }
-
+    .logo { width: 80px; height: auto; border-radius: 12px; }
     .app-title h1 {
       font-size: 26px;
       margin: 0;
@@ -63,13 +53,7 @@
       -webkit-background-clip: text;
       color: transparent;
     }
-
-    .app-title .subtitle {
-      font-size: 16px;
-      color: #555;
-      margin-top: 4px;
-    }
-
+    .app-title .subtitle { font-size: 16px; color: #555; margin-top: 4px; }
     h2 {
       font-size: 20px;
       margin-top: 28px;
@@ -81,24 +65,20 @@
       border-image: var(--grad) 1;
       border-image-slice: 1;
     }
-
-    p, li {
-      font-size: 16px;
-    }
-
-    ul {
-      margin-left: 20px;
-    }
-
+    p, li { font-size: 16px; }
+    ul { margin-left: 20px; }
     a { color: var(--blue); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 14px;
-      color: #777;
+    footer { text-align: center; margin-top: 40px; font-size: 14px; color: #777; }
+    .note {
+      background: rgba(58,123,255,0.08);
+      border: 1px solid rgba(58,123,255,0.18);
+      padding: 14px 16px;
+      border-radius: 10px;
+      margin-top: 12px;
+      color: #222;
     }
+    .small { font-size: 14px; color: #555; }
   </style>
 </head>
 
@@ -115,101 +95,206 @@
       </div>
     </div>
 
-    <p><strong>Last Updated:</strong> December 2025</p>
+    <p><strong>Last Updated:</strong> December 26, 2025</p>
 
     <p>
       This Privacy Policy explains how <strong>CalcVerse 360+</strong> ("the App"), developed by
       <strong>Rafhan Chaudhary</strong> under the developer account <strong>Skyloop apps</strong>,
-      collects, uses, and protects your information.
+      collects, uses, and protects information when you use the App.
     </p>
 
+    <div class="note">
+      <strong>Summary:</strong> We do not ask you to create an account and we do not collect information like your name,
+      email, contacts, or precise GPS location. The App shows ads using <strong>Google AdMob</strong>, and AdMob may collect
+      certain identifiers and device information to display and measure ads. Where required (e.g., EU/EEA/UK/Switzerland or
+      California), we use Google’s <strong>User Messaging Platform (UMP)</strong> to request and manage consent/choices.
+    </div>
+
     <h2>1. Information We Collect</h2>
-    <p>The App does <strong>not</strong> require any login or personal details. We do not collect your name, email, address, or contacts.</p>
+    <p>
+      The App does <strong>not</strong> require login or personal details. We do not collect your name, email address,
+      home address, phone number, or contacts.
+    </p>
 
     <h2>1.1 Automatically Collected Data</h2>
-    <p>The following non-personal data may be collected automatically:</p>
+    <p>The following data may be collected automatically (directly by us and/or through third-party SDKs like AdMob):</p>
     <ul>
-      <li>Device model & operating system</li>
-      <li>App activity and usage analytics</li>
-      <li>Country (approximate, not GPS)</li>
-      <li>Crash logs / performance diagnostics</li>
+      <li>Device model and operating system version</li>
+      <li>App activity and basic usage analytics (e.g., screens opened, feature usage)</li>
+      <li>Approximate location (derived from IP or device region; <strong>not</strong> precise GPS)</li>
+      <li>Crash logs and performance diagnostics</li>
+      <li>Advertising identifiers (e.g., Advertising ID) and ad interaction events</li>
     </ul>
 
     <h2>1.2 Calculator Inputs</h2>
     <p>
-      All values you enter into calculators (e.g., percentage, unit conversion, currency conversion,
-      mathematical and financial tools) are processed <strong>locally on your device</strong>.
-      We do not store or transmit this data.
+      Values you enter into calculators (e.g., percentage, unit conversion, currency conversion, math/finance tools)
+      are processed <strong>locally on your device</strong>. We do not store or transmit your calculator inputs.
     </p>
 
     <h2>2. Third-Party Services We Use</h2>
 
-    <h2>2.1 Google AdMob (Ads)</h2>
+    <h2>2.1 Google AdMob (Advertising)</h2>
     <p>
-      The App uses <strong>Google AdMob</strong> to display advertisements. AdMob may collect:
+      The App uses <strong>Google AdMob</strong> to display ads. AdMob (Google) may collect and process information such as:
     </p>
     <ul>
-      <li>Advertising ID</li>
-      <li>Device information and interaction data</li>
+      <li>Advertising ID / device identifiers</li>
+      <li>Device information (model, OS, language, network type)</li>
       <li>Approximate location (non-GPS)</li>
-      <li>Usage patterns for ad relevance and fraud prevention</li>
+      <li>IP address (typically used for approximate location, fraud prevention, and diagnostics)</li>
+      <li>Ad performance and interaction data (e.g., impressions, clicks)</li>
+      <li>Diagnostics and crash/performance information related to ad delivery</li>
     </ul>
 
-    <p>You may disable personalized ads using your device settings.</p>
-
-    <!-- <h2>2.2 RevenueCat (Subscriptions)</h2>
     <p>
-      The App uses <strong>RevenueCat</strong> to manage in-app purchases and premium subscriptions.
-      RevenueCat may collect:
+      This information may be used to:
+      (a) serve ads (including contextual or personalized ads, depending on your choices and region),
+      (b) measure ad performance, and
+      (c) prevent fraud and abuse.
     </p>
-    <ul>
-      <li>Purchase history (e.g., active subscription status)</li>
-      <li>Your app user ID (non-personal)</li>
-      <li>Country/region (from store)</li>
-    </ul>
 
+    <p class="small">
+      <strong>Note:</strong> AdMob is a third-party service. Google’s data use depends on its policies and your settings.
+      You can learn more in Google’s privacy information.
+    </p>
+
+    <h2>2.2 Cookies, SDKs, and Similar Technologies</h2>
     <p>
-      RevenueCat <strong>does not collect</strong> personal information such as your name, email, or payment
-      card details. All payments are processed securely by Google Play or Apple App Store.
-    </p> -->
+      Third-party partners (including Google via AdMob) may use SDKs, cookies (where applicable), and similar technologies
+      such as mobile advertising identifiers (MAIDs) to collect information about your device and interactions with ads.
+      This helps provide ads, measure performance, and reduce fraud.
+    </p>
 
     <h2>2.3 Currency Conversion API</h2>
     <p>
-      For live exchange rates, the App sends only the currency pair (e.g., USD → PKR).  
-      No personal or device data is transmitted.
+      For live exchange rates, the App may send only the currency pair (e.g., USD → PKR) to an exchange-rate provider.
+      No calculator inputs, personal identifiers, or contacts are intentionally transmitted for this feature.
     </p>
 
-    <h2>3. How We Use the Information</h2>
-    <p>Non-personal data is used to:</p>
+    <h2>3. How We Use Information</h2>
+    <p>We use non-personal/technical information to:</p>
     <ul>
       <li>Improve app performance and stability</li>
       <li>Fix crashes and bugs</li>
       <li>Enhance calculator features</li>
-      <li>Manage subscriptions and premium access</li>
-      <li>Display ads effectively</li>
+      <li>Display ads and measure ad performance</li>
+      <li>Detect and prevent fraud/abuse</li>
     </ul>
 
-    <p><strong>We never sell your data or share personal information.</strong></p>
+    <p><strong>We do not sell your personal information.</strong></p>
 
-    <h2>4. Data Security</h2>
+    <h2>4. Legal Bases (GDPR / UK GDPR)</h2>
     <p>
-      We take reasonable steps to secure your data.  
-      Since the App does not store personal information, the privacy risk is minimal.
+      If you are in the European Economic Area (EEA), United Kingdom, or Switzerland, we process information under the following
+      legal bases (as applicable):
+    </p>
+    <ul>
+      <li><strong>Consent</strong> (e.g., for personalized advertising where required)</li>
+      <li><strong>Legitimate interests</strong> (e.g., app security, fraud prevention, basic analytics, non-personal performance measurement)</li>
+      <li><strong>Compliance with legal obligations</strong> (where required)</li>
+    </ul>
+
+    <h2>5. Consent Management (UMP) – GDPR & CCPA Regions</h2>
+    <p>
+      The App uses Google’s <strong>User Messaging Platform (UMP)</strong> to show a consent/choices form to users in regions
+      where it is required (such as the EEA/UK/Switzerland under GDPR and certain U.S. states such as California).
+    </p>
+    <ul>
+      <li>If required, the consent form will appear automatically when you use the App.</li>
+      <li>You can choose whether ads may be personalized or limited to non-personalized/contextual ads (where available).</li>
+      <li>You can change your choices later by using the consent settings available inside the App (if provided) or by resetting
+          advertising ID / privacy settings on your device.</li>
+    </ul>
+
+    <div class="note">
+      <strong>Tip:</strong> If you don’t have an in-app “Privacy/Consent” button yet, add one that triggers UMP’s
+      “privacy options” flow (Google recommends offering a way to revisit choices).
+    </div>
+
+    <h2>6. Your Choices and Controls</h2>
+    <ul>
+      <li><strong>Personalized Ads:</strong> You can limit ad personalization via your device settings (Google settings / Ads settings).</li>
+      <li><strong>Advertising ID:</strong> You can reset or delete your advertising ID in your device privacy settings.</li>
+      <li><strong>Stop Collection:</strong> Uninstalling the App stops data collection by the App.</li>
+    </ul>
+
+    <h2>7. Your Rights (GDPR)</h2>
+    <p>If you are in the EEA/UK/Switzerland, you may have rights such as:</p>
+    <ul>
+      <li>Access to your information</li>
+      <li>Correction of inaccurate information</li>
+      <li>Deletion (where applicable)</li>
+      <li>Restriction or objection to processing (where applicable)</li>
+      <li>Data portability (where applicable)</li>
+      <li>Withdraw consent at any time (where processing is based on consent)</li>
+    </ul>
+    <p>
+      To exercise these rights, contact us at the email address below. If a request relates to AdMob/Google processing,
+      we may direct you to Google’s controls where appropriate.
     </p>
 
-    <h2>5. Children’s Privacy</h2>
-    <p>The App is not intended for children under 13. We do not knowingly collect child data.</p>
+    <h2>8. California Privacy Notice (CCPA/CPRA)</h2>
+    <p>
+      If you are a California resident, you may have rights under the CCPA/CPRA, including the right to:
+      know what personal information is collected, request deletion, correct inaccurate information, and opt out of
+      the “sale” or “sharing” of personal information (as those terms are defined by California law).
+    </p>
 
-    <h2>6. Your Choices</h2>
+    <p>
+      <strong>Do Not Sell or Share My Personal Information:</strong>
+      We do not sell personal information for money. However, advertising-related data sharing for cross-context behavioral
+      advertising may be considered “sharing” under California law. Where applicable, you can opt out using the choices provided
+      in the UMP consent/choices form and/or your device privacy settings.
+    </p>
+
+    <p>
+      To submit a request (know/delete/correct/opt-out), contact us at the email address below. We may need to verify your request.
+    </p>
+
+    <h2>9. Data Sharing</h2>
+    <p>
+      We may share information with service providers and partners only as needed to operate the App, such as:
+    </p>
     <ul>
-      <li>Disable personalized ads from device settings.</li>
-      <li>Uninstall the App to stop all data collection.</li>
+      <li>Google (AdMob) for ad delivery, measurement, and fraud prevention</li>
+      <li>Analytics / diagnostics tools (if enabled) for crash reporting and performance monitoring</li>
     </ul>
+    <p>
+      We do not share calculator input values because those are processed locally and not transmitted by us.
+    </p>
 
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy occasionally. Continued use means acceptance of the updated policy.</p>
+    <h2>10. Data Retention</h2>
+    <p>
+      We do not store your calculator inputs. For advertising/diagnostics data collected by third parties (e.g., AdMob),
+      retention is controlled by those providers according to their policies.
+    </p>
 
-    <h2>8. Contact Us</h2>
+    <h2>11. Data Security</h2>
+    <p>
+      We take reasonable steps to protect information. However, no method of transmission or storage is 100% secure.
+      Since the App does not store personal account data, privacy risk is reduced.
+    </p>
+
+    <h2>12. Children’s Privacy</h2>
+    <p>
+      The App is not intended for children under 13. We do not knowingly collect personal information from children.
+      If you believe a child has provided personal information, contact us and we will take reasonable steps to delete it.
+    </p>
+
+    <h2>13. International Users</h2>
+    <p>
+      If you use the App from outside your country, your information may be processed in countries where our service providers
+      operate (for example, where Google processes ad-related data). We rely on appropriate safeguards where required by law.
+    </p>
+
+    <h2>14. Changes to This Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. The updated version will be posted on this page with a new “Last Updated” date.
+      Your continued use of the App after changes means you accept the updated policy.
+    </p>
+
+    <h2>15. Contact Us</h2>
     <p>
       <strong>Name:</strong> Rafhan Chaudhary<br>
       <strong>Developer Account:</strong> Skyloop apps<br>
